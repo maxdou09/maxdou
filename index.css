@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "century Gothic";
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./img-vdeo/black.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    letter-spacing: 1px;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff;
+}
+img{
+    float: right;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+.widgets{
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+    float: left;
+    margin: 5% 2% 2% 5%;
+}
+.widgets:hover{
+    width: 165px;
+    height: 115px;
+    transition: 0.6s;
+}
+.footer{
+    width: 100%;
+    background-image: url(./img-vdeo/ciel.png);
+    display: block;
+    background-position: center;
+    background-size: cover;
+}
+.inner-footer{
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.footer-items{
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.footer-items h1{
+    padding: 10px 0;
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer-items p{
+    color: #fff;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+.footer h2{
+    margin: 10px 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.border{
+    height: 2px;
+    width: 40px;
+    background-color: #ff9800;
+}
+ul{
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+ul a{
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    transition: 0.3s;
+}
+ul a:hover{
+    color: #ff9800;
+}
+ul li{
+    margin: 10px 0;
+    height: 25px;
+}
+li i{
+    margin-right: 20px;
+}
+.bonjour{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.bonjour a{
+    text-decoration: none;
+}
+.bonjour i{
+    height: 15px;
+    width: 15px;
+    margin: 20px 5px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+    border: 3px solid grey;
+    transition: 0.3s;
+}
+.bonjour i:hover{
+    background: grey;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #00121b;
+    color: #fff;
+    font-size: 12px;
+}
